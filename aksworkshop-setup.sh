@@ -24,6 +24,8 @@ sudo apt-get update
 sudo apt-get install -y kubectl
 #install az-cli
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+#install helm
+curl -L https://git.io/get_helm.sh | bash
 ###
 #To verify installation, do the following steps
 ###
@@ -38,3 +40,5 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ###
 #verify if az-cli works
 #az login
+###
+#helm cannot be verified, as you need a cluster first
