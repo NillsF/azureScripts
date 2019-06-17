@@ -24,3 +24,17 @@ sudo apt-get update
 sudo apt-get install -y kubectl
 #install az-cli
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+###
+#To verify installation, do the following steps
+###
+###
+#verify if docker works correctly
+#sudo service docker start
+#sudo docker run hello-world
+###
+#verify if kubectl works
+#kubectl get nodes
+#output should be:The connection to the server localhost:8080 was refused - did you specify the right host or port?
+###
+#verify if az-cli works
+#az login
